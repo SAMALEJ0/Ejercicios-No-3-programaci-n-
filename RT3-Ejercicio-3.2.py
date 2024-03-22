@@ -11,9 +11,9 @@ list.append(Letra3)
 
 Contar=Texto.count(list[0])
 
-print(Contar)
+print(f"El numero de letras repetidas es de: {Contar}")
 
 Palabras=Texto.split()
 Num=len(Palabras)
 
-print(Num)
+print(f"El numero de plabras en tu texto es: {Num}")
