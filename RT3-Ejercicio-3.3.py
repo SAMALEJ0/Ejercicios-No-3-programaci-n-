@@ -34,12 +34,3 @@ Ultima_letra = Texto[-1]
 # Mostrar los resultados
 print(f"La primera letra del texto es: {Primera_letra}")
 print(f"La última letra del texto es: {Ultima_letra}")
-
-# Invertir el orden de las palabras
-Invertido = Palabras[::-1]
-
-# Unir las palabras nuevamente con espacios
-Invertido = " ".join(Invertido)
-
-# Mostrar el texto invertido
-print(f"El texto invertido es: {Invertido}")
